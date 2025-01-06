@@ -1,4 +1,4 @@
-**Overview:**
+**OVERVIEW:**
 This project focuses on the forecasting of JP Morgan's stock prices using advanced time series analysis techniques and machine learning models. The models include:
 ARIMA for statistical trend analysis,
 LSTM for capturing sequential patterns in stock prices,
@@ -6,7 +6,7 @@ XGBoost for handling non-linear relationships and complex interactions,
 A Hybrid ARIMA-LSTM model for enhanced predictive performance.
 The project aims to evaluate the strenghts and weakness of each model and provide accurate stock price predictions while analyzing the impact of historical market events.
 
-**Dataset:**
+**DATASET:**
 The dataset used for this project is JP Morgan's historical stock data (2004–2024), which includes:
 Open, High, Low, Close prices
 Adjusted Close prices
