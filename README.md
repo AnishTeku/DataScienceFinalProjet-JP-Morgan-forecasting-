@@ -15,7 +15,7 @@ Source
 The dataset was sourced from publicly available financial platforms (e.g., Yahoo Finance).
 Dataset Link: JPMorgan Chase & Co. (JPM) stock historical prices and data – Yahoo Finance 
 
-**Methodology**:
+**METHODOLOGY**:
 The forecasting pipeline was divided into the following steps:
 
 **Exploratory Data Analysis (EDA)**
@@ -25,7 +25,7 @@ Analyzed historical price movements (Open, Close, High, Low, Volume).
 Examined correlations between features.
 Performed volatility analysis using a 30-day rolling standard deviation.
 
-**Model Implementation**:
+**MODEL IMPLEMENTATION**:
 Four models were implemented to predict stock prices:
 
 **ARIMA:** Captures linear trends and seasonal components.
@@ -40,17 +40,17 @@ Utilized time series features like lagged prices and rolling averages for featur
 **Hybrid ARIMA-LSTM:** Combines ARIMA's statistical precision with LSTM's ability to capture non-linear dependencies.
 ARIMA extracts linear trends, and LSTM learns residual patterns.
 
-**Performance Metrics**
+**PERFORMANCE METRICS**
 Each model was evaluated using:
 Mean Absolute Error (MAE),
 Mean Squared Error (MSE),
 R-squared (R²) Score
 
-**Visualization:**
+**VISUALIZATION:**
 Actual vs. Predicted prices for each model were plotted.
 Future predictions were displayed with confidence intervals to show uncertainty.
 
-**Conclusion**:
+**CONCLUSION**:
 This project demonstrates the strengths and limitations of statistical and machine learning approaches for stock price forecasting:
 Hybrid ARIMA-LSTM: The most effective model, combining linear and non-linear forecasting capabilities.
 
