@@ -28,17 +28,13 @@ Performed volatility analysis using a 30-day rolling standard deviation.
 **MODEL IMPLEMENTATION**:
 Four models were implemented to predict stock prices:
 
-**ARIMA:** Captures linear trends and seasonal components.
-Trained using historical price data with differencing to ensure stationarity.
+**ARIMA:** Captures linear trends and seasonal components. Trained using historical price data with differencing to ensure stationarity.
 
-**LSTM:** A deep learning model for sequential data.
-Designed with multiple layers and tuned for hyperparameters such as epochs, learning rate, and sequence length.
+**LSTM:** A deep learning model for sequential data. Designed with multiple layers and tuned for hyperparameters such as epochs, learning rate, and sequence length.
 
-**XGBoost:** A gradient boosting model for non-linear relationships.
-Utilized time series features like lagged prices and rolling averages for feature engineering.
+**XGBoost:** A gradient boosting model for non-linear relationships. Utilized time series features like lagged prices and rolling averages for feature engineering.
 
-**Hybrid ARIMA-LSTM:** Combines ARIMA's statistical precision with LSTM's ability to capture non-linear dependencies.
-ARIMA extracts linear trends, and LSTM learns residual patterns.
+**Hybrid ARIMA-LSTM:** Combines ARIMA's statistical precision with LSTM's ability to capture non-linear dependencies. ARIMA extracts linear trends, and LSTM learns residual patterns.
 
 **PERFORMANCE METRICS**
 Each model was evaluated using:
