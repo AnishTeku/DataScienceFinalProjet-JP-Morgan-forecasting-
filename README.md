@@ -18,7 +18,7 @@ Dataset Link: JPMorgan Chase & Co. (JPM) stock historical prices and data – Ya
 **Methodology**:
 The forecasting pipeline was divided into the following steps:
 
-Exploratory Data Analysis (EDA)
+**Exploratory Data Analysis (EDA)**
 Objective: Understand the dataset, identify trends, and detect anomalies or patterns.
 Key Tasks:
 Analyzed historical price movements (Open, Close, High, Low, Volume).
